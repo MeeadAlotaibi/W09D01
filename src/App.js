@@ -14,8 +14,7 @@ function App() {
       {/* <hr /> */}
       <Signin />
       <Routes>
-       
-        <Route exact path="/Signup" element={<Signup />} /> 
+        <Route exact path="/Signup" element={<Signup />} />
         <Route exact path="/Signin" element={<Signin />} />
         <Route exact path="/Task" element={<Task />} />
         <Route exact path="/Tasks" element={<Tasks />} />
