@@ -5,15 +5,18 @@ import Signup from "./components/Signup";
 // import Nav from "./components/Nav";
 import Task from "./components/Task";
 import Tasks from "./components/Tasks";
+import Pages from "./components/Pages";
+
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Signup />
+      {/* <Signup /> */}
       {/* <hr /> */}
-      <Signin />
+      {/* <Signin /> */}
       <Routes>
+        <Route exact path="/" element={<Pages />} />
         <Route exact path="/Signup" element={<Signup />} />
         <Route exact path="/Signin" element={<Signin />} />
         <Route exact path="/Task" element={<Task />} />
